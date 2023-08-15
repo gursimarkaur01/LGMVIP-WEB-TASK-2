@@ -7,7 +7,9 @@ body {
     background-image:url(photo.jpeg);
     align-content: center;
     max-width: 100%;
+    min-height: 100vh;
     background-size:cover;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 nav {
@@ -16,12 +18,12 @@ nav {
     background-color: #5fbeedf7;
     box-shadow: 0px 8px 12px 0px #f0fe28;
     height: auto;
-    font-family:cursive;
 }
 .text {
     align-items: center;
     padding: 10px;
     font-size: 50px;
+    font-family:"Verdana", Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     margin-left: 29%;
     font-weight:500;
@@ -44,6 +46,7 @@ button {
     width: 177px;
     height: auto;
     padding: 3px;
+    font-family:"Verdana", Geneva, Tahoma, sans-serif;
     font-size: 29px;
     margin-right:28%;
     align-items: center;
@@ -65,19 +68,19 @@ button:hover {
     margin-left: 17px;
     margin-right: auto;
     display: block;
-    border-radius: 10%;
+    border-radius: 50%;
     border: 10px solid #151517f6;
 }
 .card {
-    width: 240px;
+    width: 250px;
     overflow: hidden;
     background: rgba(252, 253, 255, 0.559);
     color: #00000e;
     box-shadow: 0px 2px 29px 32px rgba(126, 222, 235, 0.295);
     display:inline-block;
     border-radius: 0px;
-    margin: 90px;
-    padding: 2px;
+    margin: 100px;
+    padding: 8.8px;
 }
 h1{
     background-color: rgba(255, 248, 116, 0.808);
